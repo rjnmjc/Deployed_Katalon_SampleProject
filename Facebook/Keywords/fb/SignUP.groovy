@@ -22,16 +22,16 @@ import com.kms.katalon.core.util.KeywordUtil
 import internal.GlobalVariable
 
 public class SignUP {
-	
+
 	@Keyword
-	def PhoneNumber_Errmsg() {
+	def Validate_PhoneNumber_Errmsg() {
 		String actual = WebUI.getText(findTestObject('Page_Facebook - Sign Up/Errmsg_Phone number'))
 		String expected = GlobalVariable.errmsg_PhoneNum
-		
+
 		if(actual != expected) {
 			KeywordUtil.markFailed(actual + " and " + expected + " do not match.")
 		}else {
 			System.out.println("Error message displayed")
 		}
-	}	
+	}
 }

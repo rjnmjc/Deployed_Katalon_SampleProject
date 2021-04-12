@@ -22,6 +22,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Page_Facebook - Sign Up/btn_Create New Account'))
 
 WebUI.setText(findTestObject('Page_Facebook - Sign Up/txtbx_First name'), 'First')
@@ -30,5 +32,7 @@ WebUI.setText(findTestObject('Page_Facebook - Sign Up/txtbx_Last name'), 'Last')
 
 WebUI.click(findTestObject('Page_Facebook - Sign Up/btn_Sign Up'))
 
-CustomKeywords.'fb.SignUP.PhoneNumber_Errmsg'()
+CustomKeywords.'fb.SignUP.Validate_PhoneNumber_Errmsg'()
+
+WebUI.closeBrowser()
 
