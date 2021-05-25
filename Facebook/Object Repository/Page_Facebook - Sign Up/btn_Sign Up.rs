@@ -6,12 +6,16 @@
    <elementGuidId>453ccd97-73d7-4085-a36e-6c1e9f099d83</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;_6j mvm _6wk _6wl _58mi _3ma _6o _6v&quot; and @name=&quot;websubmit&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#u_2_s_Kv</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[10]/button</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'websubmit' and @id = 'u_2_s_Kv' and (text() = 'Sign Up' or . = 'Sign Up')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

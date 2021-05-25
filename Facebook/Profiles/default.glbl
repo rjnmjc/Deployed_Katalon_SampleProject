@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'You\'ll use this when you log in and if you ever need to reset your password.'</initValue>
+      <initValue>'Gagamitin mo ito kapag nag-log in ka at kung kakailanganin mong i-reset ang iyong password.'</initValue>
       <name>errmsg_PhoneNum</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

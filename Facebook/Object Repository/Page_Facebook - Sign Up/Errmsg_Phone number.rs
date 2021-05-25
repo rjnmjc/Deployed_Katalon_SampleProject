@@ -6,21 +6,18 @@
    <elementGuidId>839c633b-0e89-42dc-9cd8-a3ac12caf5ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;js_0&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;_5633 _5634 _53ij&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[5]/div/div/div</value>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id=&quot;js_0&quot;]</value>
-   </webElementProperties>
 </WebElementEntity>

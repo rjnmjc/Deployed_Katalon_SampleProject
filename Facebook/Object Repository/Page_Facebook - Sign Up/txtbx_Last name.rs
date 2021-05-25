@@ -6,12 +6,16 @@
    <elementGuidId>46c81617-0a12-4946-a403-18ce39f66db9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;inputtext _58mg _5dba _2ph-&quot; and @name=&quot;lastname&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#u_2_b_o3</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'firstname' and @placeholder = 'First name' and @id = 'u_2_b_o3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
